@@ -1,6 +1,6 @@
 # UniversityDatabase
 
-##### Author: Perihan Hill 
+#### Author: Perihan Hill 
 
 A university database for the design and implementation of a relational database system that will provide information on the courses it offers, the academic departments that run the courses, the academic staff, and the enrolled students. 
 Following requirements were collected for this application: 
