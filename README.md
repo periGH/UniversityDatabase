@@ -1,18 +1,18 @@
 # UniversityDatabase
 
-Author: Perihan Hill 
+## Author: Perihan Hill 
 
 A university database for the design and implementation of a relational database system that will provide information on the courses it offers, the academic departments that run the courses, the academic staff, and the enrolled students. 
 Following requirements were collected for this application: 
-▪Department: The university is organized into departments. Each department is identified by a unique identification number (department ID), has a name, and has a budget. 
-▪Course: Each department runs several courses. Each course is associated with a course ID, title, credits, department ID, and may also have associated prerequisites. 
-▪Faculty: Faculties are identified by their unique ID. Each faculty has a name, an associated department (department ID), room ID, and salary. 
-▪Student: Students are identified by their unique ID. Each student has a name, address, birthdate, phone, student type, and a major ID. 
-▪Term: The university maintains a list of terms, specifying the term ID, term description, start date and end date. 
-▪Section: The university maintains a list of all classes (sections) taught. Each section is identified by a section ID, course ID, section number, room ID, start time, end time, day, maximum count, and term ID. A section can be used in one course only but can be studied by many students. The department has a list of teaching assignments specifying the sections each faculty is teaching. 
-▪Registration: The university has a list of all student course registrations specifying the associated sections each student has taken (or registered for), midterm grade, and final grade. 
-▪Location: The university maintains a list of classrooms which specifies the room ID, building, room number, capacity, room type, and room description. 
-▪Major: The university has a list of all majors. Each major is identified by a unique number (major ID) and a description. 
+- Department: The university is organized into departments. Each department is identified by a unique identification number (department ID), has a name, and has a budget. 
+- Course: Each department runs several courses. Each course is associated with a course ID, title, credits, department ID, and may also have associated prerequisites. 
+- Faculty: Faculties are identified by their unique ID. Each faculty has a name, an associated department (department ID), room ID, and salary. 
+- Student: Students are identified by their unique ID. Each student has a name, address, birthdate, phone, student type, and a major ID. 
+- Term: The university maintains a list of terms, specifying the term ID, term description, start date and end date. 
+- Section: The university maintains a list of all classes (sections) taught. Each section is identified by a section ID, course ID, section number, room ID, start time, end time, day, maximum count, and term ID. A section can be used in one course only but can be studied by many students. The department has a list of teaching assignments specifying the sections each faculty is teaching. 
+- Registration: The university has a list of all student course registrations specifying the associated sections each student has taken (or registered for), midterm grade, and final grade. 
+- Location: The university maintains a list of classrooms which specifies the room ID, building, room number, capacity, room type, and room description. 
+- Major: The university has a list of all majors. Each major is identified by a unique number (major ID) and a description. 
 
 Logical Design:
 
