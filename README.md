@@ -17,7 +17,7 @@ Following requirements were collected for this application:
 #### Logical Design:
 
 The full set of normalized tables for the University Database is as follows: 
-##### Schema
+#### Schema
 * **Department** {dept_id, dept_name, budget} 
 * **Course** {course_id, title, credits, dept_id, prerequisite} 
 * **Faculty** {faculty_id, name, room_id, dept_id, salary} 
