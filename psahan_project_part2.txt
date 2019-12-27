@@ -1,0 +1,137 @@
+mysql> source psahan_project_part2.sql
+Show warnings enabled.
+*************************** 1. row ***************************
+        user(): psahan@localhost
+current_date(): 2017-12-07
+     version(): 5.7.19
+    @@sql_mode: ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+1 row in set (0.00 sec)
+
++-----------+---------------+---------+---------+--------------+
+| course_id | title         | credits | dept_id | prerequisite |
++-----------+---------------+---------+---------+--------------+
+| EN100     | Basic English |       0 |       6 |              |
++-----------+---------------+---------+---------+--------------+
+1 row in set (0.00 sec)
+
++------------+-----------+---------+
+| section_id | course_id | term_id |
++------------+-----------+---------+
+|       1101 | CIS265    | WN13    |
+|       1102 | CIS253    | WN13    |
+|       1103 | MA150     | WN13    |
++------------+-----------+---------+
+3 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+Rows matched: 1  Changed: 0  Warnings: 0
+
++--------------------------------------+
+| title                                |
++--------------------------------------+
+| Introduction to Relational Databases |
++--------------------------------------+
+1 row in set (0.00 sec)
+
++------------+-----------+-------------------+
+| section_id | course_id | no_of_enrollments |
++------------+-----------+-------------------+
+|       1103 | MA150     |                 1 |
++------------+-----------+-------------------+
+1 row in set (0.00 sec)
+
++-----------+------------+----------------+
+| course_id | section_id | student_roster |
++-----------+------------+----------------+
+| AC101     |       1104 | Rickles,Alex   |
+| CIS265    |       1104 | Rickles,Alex   |
+| AC101     |       1104 | Diaz,Jose      |
+| CIS265    |       1104 | Diaz,Jose      |
++-----------+------------+----------------+
+4 rows in set (0.00 sec)
+
++--------------------+-------------------------+
+| dept_name          | total_no_of_instructors |
++--------------------+-------------------------+
+| Accounting         |                       2 |
+| Computer Science   |                       2 |
+| English            |                       1 |
+| Liberal Arts       |                       1 |
+| Math and Science   |                       1 |
+| Telecommunications |                       2 |
++--------------------+-------------------------+
+6 rows in set (0.00 sec)
+
++------------+--------+---------+
+| faculty_id | name   | dept_id |
++------------+--------+---------+
+|      74420 | Rivera |       4 |
+|      35579 | Chang  |       5 |
++------------+--------+---------+
+2 rows in set (0.00 sec)
+
++------------+-----------+--------+
+| section_id | course_id | name   |
++------------+-----------+--------+
+|       1101 | CIS265    | Jones  |
+|       1102 | CIS253    | Mobley |
+|       1103 | MA150     | Rivera |
++------------+-----------+--------+
+3 rows in set (0.00 sec)
+
++-------------------+-----------------------+
+| Student_Full_Name | Major_Description     |
++-------------------+-----------------------+
+| Alex Rickles      | BS-Computer Science   |
+| Jose Diaz         | AAS-Accounting        |
+| Ho Lee            | BS-Telecommunications |
+| Rajesh Miliko     | BS-Accounting         |
+| Kee Tyler         | BS-Computer Science   |
+| Amir Holn         | AAS-Computer Science  |
++-------------------+-----------------------+
+6 rows in set (0.00 sec)
+
++-----------+------------+
+| last_name | first_name |
++-----------+------------+
+| Miliko    | Rajesh     |
++-----------+------------+
+1 row in set (0.00 sec)
+
++------------+--------+---------+----------+
+| faculty_id | name   | room_id | salary   |
++------------+--------+---------+----------+
+|      63395 | Jones  |      11 | 94333.99 |
+|      78699 | Mobley |      11 | 59303.62 |
++------------+--------+---------+----------+
+2 rows in set (0.00 sec)
+
++----------------+
+| TOTAL_ENROLLED |
++----------------+
+|              5 |
++----------------+
+1 row in set (0.00 sec)
+
++--------------------------------------+----------------+---------------+
+| title                                | total_capacity | no_of_section |
++--------------------------------------+----------------+---------------+
+| Introduction to Relational Databases |            165 |             4 |
+| Systems Analysis                     |             95 |             3 |
++--------------------------------------+----------------+---------------+
+2 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
++-----------+------------+-------------------+
+| course_id | section_id | no_of_enrollments |
++-----------+------------+-------------------+
+| CIS265    |       1206 |                 3 |
+| LA123     |       1207 |                 3 |
++-----------+------------+-------------------+
+2 rows in set (0.00 sec)
+
+mysql> notee

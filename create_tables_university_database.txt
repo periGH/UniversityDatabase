@@ -1,0 +1,39 @@
+mysql> source  C:\Users\Perihan\Desktop\university database scripts\create_tables_university_database.sql
+Database changed
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.01 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+Query OK, 0 rows affected (0.38 sec)
+
+Query OK, 0 rows affected (0.39 sec)
+
+Query OK, 0 rows affected (0.38 sec)
+
+Query OK, 0 rows affected (0.30 sec)
+
+Query OK, 0 rows affected (0.42 sec)
+
+Query OK, 0 rows affected (0.33 sec)
+
+Query OK, 0 rows affected (0.34 sec)
+
+Query OK, 0 rows affected (0.53 sec)
+
+Query OK, 0 rows affected (0.45 sec)
+
+mysql> notee
